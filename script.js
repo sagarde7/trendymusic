@@ -3,7 +3,22 @@ const allsongs = {
     "Honey Singh - Love Dose": "albums/m2.mp3",
     "AR RAHMAN - OLD REMIX": "albums/m3.mp3",
     "SHREYA - VE KAMLIYA": "albums/m4.mp3",
-    "DILJIT - NAINA": "albums/m5.mp3"
+    "DILJIT - NAINA": "albums/m5.mp3",
+    "Angaaron":"albums/m6.mp3",
+    "Bhairava anthem":"albums/m7.mp3",
+    "Houdini-Eminem":"albums/m8.mp3",
+    "Fear Song":"albums/m9.mp3",
+    "Nadaaniyan":"albums/m10.mp3",
+    "Still Rollin":"albums/m11.mp3",
+    "ONE":"albums/m12.mp3",
+    "Starboy":"albums/m13.mp3",
+    "Cheap Thrills":"albums/m14.mp3",
+    "Solid":"albums/m15.mp3",
+    "Lily":"albums/m16.mp3",
+    "Alone":"albums/m17.mp3",
+    "On my way":"albums/m18.mp3",
+    "Play":"albums/m19.mp3",
+    "Faded":"albums/m20.mp3"
 };
 
 console.log(allsongs);

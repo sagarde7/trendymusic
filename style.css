@@ -14,6 +14,7 @@ img{
     /* background-color: white; */
     transition: all 0.5s;
     overflow: hidden;
+    display: inline-block;
 }
 
 img:hover{
@@ -23,9 +24,11 @@ img:hover{
 .txt
 {
     font-weight: bolder;
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    color: yellow;
+    text-align: center;
     
 }
 .download,.sfa{
@@ -78,13 +81,22 @@ img:hover{
     width: 2rem;
 
 }
+.badshah{
+    margin-right: 0.2rem;
+}
+.popularartist{
+    margin-left: 1.3rem;
+    margin-right: 0.5rem;
+}
 .name{
     /* margin-left: 3rem;
      */
      text-align: center;
      font-weight: bold;
-     font-size: 1.5rem;
+     font-size: 1.4rem;
      color: hotpink;
+     margin-left: 0.8rem;
+     /* display: inline-block; */
 }
 .home{
     margin-left: 1rem;
@@ -148,8 +160,8 @@ main{
     justify-content: space-between;
 }
 .images img{
-    height: 15rem;
-    width: 15rem;
+    height: 14rem;
+    width: 14rem;
     border-radius: 50%;
 }
 .imagesalbum .newi{
@@ -157,12 +169,15 @@ main{
     align-items: center;
     justify-content: space-between;
     margin-left: 1rem;
+    display: inline-block;
+
 }
 .imagesalbum img{
     height: 15rem;
     width: 15rem;
     border-radius: 50%;
     margin-left: 1.5rem;
+    display: inline-block;
 }
 
 .newi img,
@@ -172,6 +187,8 @@ main{
     margin-left: 2rem;
     margin-right: 0.5rem;
     border-radius: 2rem;
+    display: inline-block;
+
 }
 
 .badi img{
@@ -214,6 +231,10 @@ audio {
     background-color: white;
     display: inline-block;
     margin-bottom: 2rem;
+    transition: all 0.2s;
+}
+audio:hover{
+    transform: scale(1.05);
 }
 
 .songInfo img {
@@ -237,4 +258,10 @@ audio {
     margin-left: 5rem;
     margin-bottom: 2rem;
     margin-right: 2rem;
+}
+footer div{
+    display: hidden;
+    height: 3rem;
+    text-align: center;
+    
 }
