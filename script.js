@@ -15,8 +15,8 @@ const allsongs = {
     "Cheap Thrills":"albums/m14.mp3",
     "Solid":"albums/m15.mp3",
     "Lily":"albums/m16.mp3",
-    "Alone":"albums/m17.mp3",
-    "On my way":"albums/m18.mp3",
+    "Alone":"albums/m18.mp3",
+    "On my way":"albums/m17.mp3",
     "Play":"albums/m19.mp3",
     "Faded":"albums/m20.mp3"
 };
