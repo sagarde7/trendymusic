@@ -130,6 +130,7 @@ img:hover{
 main{
     flex: 1;
 }
+
 .navbar{
     margin-left: 2rem;
     display: flex;
@@ -159,6 +160,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    overflow: hidden;
 }
 .images img{
     height: 14rem;
