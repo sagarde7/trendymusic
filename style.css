@@ -16,7 +16,10 @@ img{
     overflow: hidden;
     display: inline-block;
 }
-
+.imgs{
+    border-radius: 50%;
+    overflow: hidden;
+}
 img:hover{
     box-shadow: 0 0.5rem 1rem hotpink;
     transform: scale(1.01);
@@ -182,6 +185,10 @@ main{
     margin-left: 1.5rem;
     display: inline-block;
 }
+.imgs1{
+    overflow: hidden;
+    border-radius: 2rem;
+}
 
 .newi img,
 .badi img{
@@ -222,6 +229,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .audio {
