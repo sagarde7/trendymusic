@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     background:purple;
 
@@ -22,7 +24,7 @@ img{
 }
 img:hover{
     box-shadow: 0 0.5rem 1rem hotpink;
-    transform: scale(1.01);
+    transform: scale(1.1);
 }
 .txt
 {
